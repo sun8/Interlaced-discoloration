@@ -1,0 +1,97 @@
+.clearfix{
+	width: 200%;
+}
+div{
+	width: 549px;
+	height: 720px;
+	background-image: url(../images/bg.png);
+	box-sizing: border-box;
+	padding: 103px 0 0 72px;
+	float: left;
+}
+ul{
+	width: 410px;
+	height: 506px;
+	background-color: #fff;
+}
+li{
+	height: 40px;
+	text-align: center;
+	font: 14px/40px  arial;
+	color: #e7788d;
+}
+li:first-child{
+	height: 66px;
+	font-size: 0px;
+	background: url(../images/logo.png) no-repeat center center;
+}
+li:nth-child(2n){
+	background-color: #fdf1f3;
+}
+li:nth-child(4){
+	background-color: #e7788d;
+	color: #fff;
+}
+div:nth-child(2){
+	background-image: url(../images/bg1.png);
+	background-color: #bec2d2;
+}
+div:nth-child(3){
+	background-image: url(../images/bg2.png);
+	background-color: #000;
+}
+ul[class="content"]{
+	background: none;
+	border: 2px solid #fff;
+}
+.content li{
+	color: #fff;
+}
+.content li:nth-child(2n){
+	background-color: #dee1e8;
+}
+.content li:nth-child(4){
+	background-color: #e7788d;
+}
+.last li:first-child{
+	background: url(../images/logo3.png) no-repeat center center;
+}
+.last li:nth-child(odd){
+	background-color: #e7788d;
+	color: #fff;
+}
+.last li:nth-child(even){
+	background-color: #fdf1f3;
+}
+.last li:nth-child(4){
+	background-color: #000;
+	color: #e7788d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
